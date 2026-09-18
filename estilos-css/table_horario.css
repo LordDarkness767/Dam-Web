@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  
+}
+td{
+    padding: 33px;
+    border: solid red 1px;
+    background-color: gray;
+}
+th{
+
+    border: solid red 1px;
+    background-color: gray;
+}
+td:hover{
+    background-color: blue;
+    scale: calc(1,2);
+}
