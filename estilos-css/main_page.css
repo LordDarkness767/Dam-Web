@@ -1,7 +1,44 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
 }
-.text_center{
-    text-align: center;
+.layout {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
+}
+.header {
+  background-color: red;
+  text-align: center;
+  padding: 20px;
+  grid-column: 1;
+  grid-row: 1;
+}
+.main {
+  grid-column: 1;
+  grid-row: 2;
+}
+.footer {
+  grid-column: 1;
+  grid-row: 3;
+  background-color: green;
+  padding: 10px;
+ 
+}
+
+@media screen and (min-width: 380px) {
+}
+
+/* ==========================================================================
+   3. MEDIA QUERY: DES DE 750px (Tabletes horitzontals / Desktops petits)
+   ========================================================================== */
+@media screen and (min-width: 750px) {
+}
+
+/* ==========================================================================
+   4. MEDIA QUERY: DES DE 1100px (Pantalles grans / Desktops)
+   ========================================================================== */
+@media screen and (min-width: 1100px) {
 }
