@@ -11,7 +11,7 @@
   min-height: 100vh;
 }
 a {
-  color: #ffffff;
+  color: black ;
 }
 li {
   margin: 5px;
@@ -45,12 +45,10 @@ li {
     grid-template-rows: auto 1fr auto;
     min-height: 100vh;
   }
-  ul {
-    display: flex;
-  }
+  
   a {
-    color: #ffffff;
-  }
+  color: black ;
+}
 
   .header {
     background-color: #241b3a;
